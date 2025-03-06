@@ -32,12 +32,10 @@ lorem ipsum and such
 # Example code
 
 ```java
-
 class SomeClass{
     void doSomething(){
         doSomethingElse();
     }
-
     // does something else
     int doSomethingElse(){
         return 1;
