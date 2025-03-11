@@ -112,16 +112,10 @@ footer {
 }
 
 /* Custom styles */
-span.attribution {
+section.image-caption p {
     font-size: 0.5rem;
     text-align: center;
-}
-
-section.image-caption p {
-    font-size: 0.5rem !important;
-    text-align: center !important;
-    width: 100% !important;
-    padding-top: 0 !important;
+    width: 100%;
 }
 
 /* Code block styling */

@@ -17,11 +17,11 @@ lorem ipsum and such
 
 ---
 
-# Example image
+<!-- _class: image-caption -->
+# Example image with caption
 
 ![](./dev-process.png)
 
-<!-- _class:image-caption> -->
 A note about the above image
 
 ---
