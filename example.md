@@ -21,6 +21,9 @@ lorem ipsum and such
 
 ![](./dev-process.png)
 
+<!-- _class:image-caption> -->
+A note about the above image
+
 ---
 
 # Example image from url
