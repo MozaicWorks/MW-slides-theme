@@ -23,3 +23,7 @@ footer: "©Mosaic Works All rights reserved https://mozaicworks.com"
 You can also copy the example from the file example.md in this repo.
 
 For more information check out the [marp](https://marpit.marp.app/) documentation.
+
+## Image caption, attribution, code notes
+
+Any italic paragraph following an image or code is considered a note.
