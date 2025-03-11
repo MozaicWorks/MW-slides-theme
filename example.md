@@ -17,12 +17,13 @@ lorem ipsum and such
 
 ---
 
-<!-- _class: image-caption -->
 # Example image with caption
 
 ![](./dev-process.png)
 
-A note about the above image
+*A note about the above image [link](https://link.com)*
+
+Something else
 
 ---
 
@@ -45,3 +46,4 @@ class SomeClass{
     }
 }
 ```
+*A note about the above code*

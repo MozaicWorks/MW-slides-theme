@@ -42,10 +42,10 @@ h1 {
     font-size: 68px;
     color: #2b7099;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 section p {
-    padding-top: 2em;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -112,10 +112,19 @@ footer {
 }
 
 /* Custom styles */
-section.image-caption p {
+
+/* Italic following an image is a note */
+section p:has(img)+p em {
+    display: block;
     font-size: 0.5rem;
     text-align: center;
-    width: 100%;
+}
+
+/* Italic following code is a note */
+section pre+p em {
+    display: block;
+    font-size: 0.5rem;
+    text-align: center;
 }
 
 /* Code block styling */
