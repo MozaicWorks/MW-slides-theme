@@ -1,5 +1,6 @@
 /* @theme marp-mozaicworks */
 
+/* Default page style */
 section {
     width: 1920px;
     height: 1080px;
@@ -13,6 +14,8 @@ section {
     padding-top: 60px;
 }
 
+/* Title slide - any page that has only an h1 */
+/* Display the title in the center of the slide */
 section:not(:has(p)):not(:has(pre)) h1 {
     display: flex;
     align-items: center;
@@ -23,6 +26,7 @@ section:not(:has(p)):not(:has(pre)) h1 {
     height: 60%;
 }
 
+/* Hide the header and footer on title slides */
 section:not(:has(p)):not(:has(pre)) header {
     display: none;
 }
@@ -37,24 +41,30 @@ section:not(:has(p)):not(:has(pre))::after {
 
 
 /* Header styles */
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Roboto Slab', serif;
-    font-size: 68px;
     color: #2b7099;
+}
+
+h1 {
+    font-size: 68px;
     text-align: center;
     padding-bottom: 1rem;
 }
 
+/* Default paragraph style */
 section p {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
-section p:has(img) {
-    padding-top: 0;
-}
-
+/* Default list style */
 section ul li {
     width: 70%;
     margin-left: auto;
@@ -64,6 +74,7 @@ section ul li {
     list-style-position: inside;
 }
 
+/* Image styles */
 
 section img {
     width: auto;
@@ -75,6 +86,23 @@ section img {
     border: 1px solid #2b7099;
 }
 
+section p:has(img) {
+    padding-top: 0;
+}
+
+/* Header style */
+header {
+    position: absolute;
+    display: block;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Footer style */
 section::after {
     bottom: 10px;
     content: "Think. Design. Work Smart.";
@@ -88,17 +116,6 @@ section::after {
     color: #2b7099;
     font-weight: bold;
     text-shadow: 1px 1px 0 #fff;
-}
-
-header {
-    position: absolute;
-    display: block;
-    top: 20px;
-    width: 100%;
-    text-align: center;
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-style: italic;
 }
 
 footer {
@@ -116,14 +133,14 @@ footer {
 /* Italic following an image is a note */
 section p:has(img)+p em {
     display: block;
-    font-size: 0.5rem;
+    font-size: 14px;
     text-align: center;
 }
 
 /* Italic following code is a note */
 section pre+p em {
     display: block;
-    font-size: 0.5rem;
+    font-size: 14px;
     text-align: center;
 }
 
