@@ -44,6 +44,12 @@ h1 {
     text-align: center;
 }
 
+/* Use as image attribution or other small notes */
+h6 {
+    font-size: 0.5rem;
+    text-align: center;
+}
+
 section p {
     padding-top: 2em;
     width: 70%;
