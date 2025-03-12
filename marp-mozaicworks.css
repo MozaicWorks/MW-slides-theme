@@ -105,14 +105,12 @@ header {
 /* Footer style */
 section::after {
     bottom: 10px;
-    content: "Think. Design. Work Smart.";
-    /* content: attr(data-marpit-pagination); */
     padding: inherit;
     pointer-events: none;
     position: absolute;
     right: 50px;
     font-family: 'Roboto';
-    font-size: 24px;
+    font-size: 14px;
     color: #2b7099;
     font-weight: bold;
     text-shadow: 1px 1px 0 #fff;
@@ -124,7 +122,7 @@ footer {
     right: 50px;
     height: 20px;
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 14px;
     bottom: 30px;
 }
 
