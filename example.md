@@ -4,7 +4,7 @@ theme: marp-mozaicworks
 paginate: true
 title: "Example"
 header: "Example"
-footer: "©Mosaic Works All rights reserved https://mozaicworks.com"
+footer: "©[Mozaic Works](https://mozaicworks.com) All rights reserved"
 ---
 
 # Example title slide

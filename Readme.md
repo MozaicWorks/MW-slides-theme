@@ -16,7 +16,7 @@ theme: marp-mozaicworks
 paginate: true
 title: "FILE TITLE"
 header: "PRESENTATION TITLE"
-footer: "©Mosaic Works All rights reserved https://mozaicworks.com"
+footer: "©[Mozaic Works](https://mozaicworks.com)"
 ---
 ```
 
